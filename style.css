@@ -1,0 +1,28 @@
+  body
+  {
+    color: rgb(0, 0, 0);
+    background: rgb(0, 146, 214);
+  }
+  .heading
+  {
+    width: 80%;
+    font-size: 22px;
+  }
+  #camera 
+  {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width: 350px;
+    height: 300px;
+    margin-top: 30px;
+  }
+  .nameOfObjects, #resultObjectName  , #resultObjectAccuracy
+  {
+    color: yellow;
+  }
+
+  @keyframes example{
+    from {box-shadow: 1px 1px 60px grey;}
+    to {box-shadow: 1px 1px 60px rgb(255, 87, 87);}
+  }
